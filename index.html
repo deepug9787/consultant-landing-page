@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Consultancy</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="main.css" media="screen" />
+        <script src="main.js" defer></script>
+    </head>
+
+    <body class="page">
+        <h1 class="visually-hidden">Consultancy landing page</h1>
+
+        <header class="site-header">
+            <div class="contained">
+                <a href="#hero" class="skip-link">Skip to main content</a>
+
+                <a href="#" class="logo">
+                    <span>Consultancy</span>
+                </a>
+
+                <button
+                    aria-expanded="false"
+                    aria-label="menu"
+                    class="menu-btn hamburger-menu-btn"
+                >
+                    <img src="img/hamburger-icon.png" alt="hamburger menu icon" />
+                </button>
+
+                <nav class="site-nav site-header__nav">
+                    <button aria-label="close menu" class="menu-btn close-menu-btn">
+                        <img src="img/close-icon.png" alt="close menu icon" />
+                    </button>
+
+                    <ul class="menu site-header__menu">
+                        <li><a href="#about" class="menu__item">About</a></li>
+                        <li><a href="#pricing" class="menu__item">Pricing</a></li>
+                        <li><a href="#faq" class="menu__item">FAQ</a></li>
+                        <li><a href="#testimonial" class="menu__item">Testimonials</a></li>
+                        <li><a href="#cta" class="menu__item">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hero" id="hero">
+            <div class="grid-wrapper hero__grid-wrapper contained">
+                <div class="hero__text">
+                    <span class="hero__offer-head">Limited Offer</span>
+
+                    <span class="offer-title"
+                        >Get a free 30 minute <br />
+                        initial consultation.</span
+                    >
+
+                    <p class="hero__offer-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab voluptatibus
+                        at id doloribus animi est asperiores quisquam optio, quod dolorum nesciunt
+                        consequatur necessitatibus.
+                    </p>
+                </div>
+
+                <form method="post" action="" class="form hero__form">
+                    <div class="form__item">
+                        <label for="first-name" class="form__label"> First Name: </label>
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first-name"
+                            value=""
+                            placeholder="Enter First Name"
+                            class="form__input"
+                            required
+                            minlength="3"
+                            maxlength="50"
+                        />
+                    </div>
+
+                    <div class="form__item">
+                        <label for="last-name" class="form__label"> Last Name: </label>
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last-name"
+                            value=""
+                            placeholder="Enter Last Name"
+                            class="form__input"
+                            required
+                            minlength="3"
+                            maxlength="50"
+                        />
+                    </div>
+
+                    <div class="form__item">
+                        <label for="email" class="form__label"> Email: </label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            value=""
+                            placeholder="Enter Email"
+                            class="form__input"
+                            required
+                        />
+                    </div>
+                    <button name="submit" class="btn btn--submit">
+                        Book free initial consultation
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <section class="about region contained" id="about">
+            <div class="grid-wrapper about__grid-wrapper">
+                <div class="about__text">
+                    <h2 class="region__title about__title">About</h2>
+
+                    <span class="about__head">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    </span>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat
+                        nihil vel voluptas dicta itaque architecto velit asperiores temporibus.
+                        Libero totam dignissimos quidem dolores!
+                    </p>
+
+                    <ul class="list about__list">
+                        <li>Ipsum expedita fugiat veniam ut atque nulla Quasi lorem.</li>
+                        <li>Dolor voluptas cumque sed natus</li>
+                        <li>Adipisicing excepturi beatae laboriosam magnam.</li>
+                    </ul>
+                </div>
+
+                <picture>
+                    <source
+                        srcset="img/profile-pic/profile-pic-medium.webp"
+                        media="(min-width: 500px)"
+                    />
+                    <img
+                        class="about__profile-pic"
+                        src="img/profile-pic/profile-pic-small.webp"
+                        alt="A man wearing a suit"
+                    />
+                </picture>
+            </div>
+        </section>
+
+        <section class="why-choose-us region" id="why-choose-us">
+            <div class="contained">
+                <h2 class="region__title why-choose-us__title">Why Choose Us</h2>
+
+                <div class="grid-wrapper why-choose-us__grid-wrapper">
+                    <section class="reasons-item">
+                        <div class="reasons-item__text">
+                            <h3 class="reasons-item__title">24/7 customer support</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                nihil, doloremque labore eius dolores illum?
+                            </p>
+                        </div>
+                        <img
+                            src="img/customer-support.png"
+                            class="reasons-item__img"
+                            alt="Customer support icon"
+                        />
+                    </section>
+
+                    <section class="reasons-item">
+                        <div class="reasons-item__text">
+                            <h3 class="reasons-item__title">15+ years experience</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                nihil, doloremque labore eius dolores illum?
+                            </p>
+                        </div>
+                        <img
+                            src="img/experience.png"
+                            class="reasons-item__img"
+                            alt="Experience icon"
+                        />
+                    </section>
+
+                    <section class="reasons-item">
+                        <div class="reasons-item__text">
+                            <h3 class="reasons-item__title">Professional Service</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                nihil, doloremque labore eius dolores illum?
+                            </p>
+                        </div>
+                        <img
+                            src="img/service.png"
+                            class="reasons-item__img"
+                            alt="Professional service icon"
+                        />
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing region contained" id="pricing">
+            <h2 class="region__title">Pricing</h2>
+            <div class="grid-wrapper pricing__grid-wrapper">
+                <div class="package">
+                    <h3 class="package__type">Basic</h3>
+                    <span class="package__price"
+                        ><span class="package__amount">$40</span>/ month</span
+                    >
+
+                    <p class="package__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis
+                        labore libero fuga ab exercitationem.
+                    </p>
+
+                    <ul class="list package__features">
+                        <li>Feature one</li>
+                        <li>Feature two</li>
+                        <li>Feature one</li>
+                        <li>Feature two</li>
+                    </ul>
+
+                    <a href="#" class="link link--secondary package__link">Choose Plan</a>
+                </div>
+
+                <div class="package package--most-popular">
+                    <h3 class="package__type">Most Popular</h3>
+                    <span class="package__price"
+                        ><span class="package__amount">$70</span>/ month</span
+                    >
+
+                    <p class="package__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis
+                        labore libero fuga ab exercitationem.
+                    </p>
+
+                    <ul class="list package__features package__features--most-popular">
+                        <li>Feature one</li>
+                        <li>Feature two</li>
+                        <li>Feature three</li>
+                        <li>Feature four</li>
+                    </ul>
+
+                    <a href="#" class="link link--primary package__link">Choose Plan</a>
+                </div>
+
+                <div class="package">
+                    <h3 class="package__type">Premium</h3>
+                    <span class="package__price"
+                        ><span class="package__amount">$90</span> / month</span
+                    >
+
+                    <p class="package__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis
+                        labore libero fuga ab exercitationem.
+                    </p>
+
+                    <ul class="list package__features">
+                        <li>Feature one</li>
+                        <li>Feature two</li>
+                        <li>Feature three</li>
+                        <li>Feature four</li>
+                    </ul>
+
+                    <a href="#" class="link link--secondary package__link">Choose Plan</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq region" id="faq">
+            <h2 class="region__title">FAQ</h2>
+
+            <div class="accordion">
+                <div class="accordion__item">
+                    <button
+                        id="accordion-header1"
+                        class="accordion__header"
+                        aria-expanded="false"
+                        aria-controls="accordion-content1"
+                    >
+                        <span class="accordion__title">What is your process?</span>
+                        <img class="accordion__toggle-icon" alt="" />
+                    </button>
+
+                    <div
+                        id="accordion-content1"
+                        class="accordion__content"
+                        role="region"
+                        aria-labelledby="accordion-header1"
+                    >
+                        <div class="accordion__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                            voluptatum modi delectus, ex laudantium cumque. Facilis molestias,
+                            officia vel sequi, tenetur dicta maxime porro inventore.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion__item">
+                    <button
+                        id="accordion-header2"
+                        class="accordion__header"
+                        aria-expanded="false"
+                        aria-controls="accordion-content2"
+                    >
+                        <span class="accordion__title">How much does it cost?</span>
+                        <img class="accordion__toggle-icon" alt="" />
+                    </button>
+
+                    <div
+                        id="accordion-content2"
+                        class="accordion__content"
+                        role="region"
+                        aria-labelledby="accordion-header2"
+                    >
+                        <div class="accordion__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                            voluptatum modi delectus, ex laudantium cumque. Facilis molestias,
+                            officia vel sequi, tenetur dicta maxime porro inventore.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion__item">
+                    <button
+                        id="accordion-header3"
+                        class="accordion__header"
+                        aria-expanded="false"
+                        aria-controls="accordion-content3"
+                    >
+                        <span class="accordion__title">What are your working hours?</span>
+                        <img class="accordion__toggle-icon" alt="" />
+                    </button>
+
+                    <div
+                        id="accordion-content3"
+                        class="accordion__content"
+                        role="region"
+                        aria-labelledby="accordion-header3"
+                    >
+                        <div class="accordion__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                            voluptatum modi delectus, ex laudantium cumque. Facilis molestias,
+                            officia vel sequi, tenetur dicta maxime porro inventore.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion__item">
+                    <button
+                        id="accordion-header5"
+                        class="accordion__header"
+                        aria-expanded="false"
+                        aria-controls="accordion-content5"
+                    >
+                        <span class="accordion__title"
+                            >What types of businesses do you work with?</span
+                        >
+                        <img class="accordion__toggle-icon" alt="" />
+                    </button>
+
+                    <div
+                        id="accordion-content5"
+                        class="accordion__content"
+                        role="region"
+                        aria-labelledby="accordion-header5"
+                    >
+                        <div class="accordion__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                            voluptatum modi delectus, ex laudantium cumque. Facilis molestias,
+                            officia vel sequi, tenetur dicta maxime porro inventore.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion__item">
+                    <button
+                        id="accordion-header6"
+                        class="accordion__header"
+                        aria-expanded="false"
+                        aria-controls="accordion-content6"
+                    >
+                        <span class="accordion__title">How can you help me grow my business?</span>
+                        <img class="accordion__toggle-icon" alt="" />
+                    </button>
+
+                    <div
+                        id="accordion-content6"
+                        class="accordion__content"
+                        role="region"
+                        aria-labelledby="accordion-header6"
+                    >
+                        <div class="accordion__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                            voluptatum modi delectus, ex laudantium cumque. Facilis molestias,
+                            officia vel sequi, tenetur dicta maxime porro inventore.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="testimonial region contained" id="testimonial">
+            <h2 class="region__title">Testimonials</h2>
+
+            <div class="grid-wrapper testimonial__grid-wrapper">
+                <div class="testimonial__item">
+                    <figure>
+                        <blockquote class="testimonial__quote">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Recusandae laborum sed quod eos ratione. Eum veritatis sunt,
+                                reiciendis nihil repudiandae asperiores?
+                            </p>
+                        </blockquote>
+                        <figcaption>
+                            <img
+                                src="img/customer1.webp"
+                                class="testimonial__client-pic"
+                                alt="A smiling woman"
+                            />
+                            <span class="testimonial__client-name">Jane</span>
+                            <span class="testimonial__client-designation">Founder, ABC Inc.</span>
+                        </figcaption>
+                    </figure>
+
+                    <img
+                        src="img/five-star-rating.png"
+                        class="testimonial__rating"
+                        alt="Five star rating icon"
+                    />
+                </div>
+
+                <div class="testimonial__item">
+                    <figure>
+                        <blockquote class="testimonial__quote">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Recusandae laborum sed quod eos ratione. Eum veritatis sunt,
+                                reiciendis nihil repudiandae asperiores?
+                            </p>
+                        </blockquote>
+                        <figcaption>
+                            <img
+                                src="img/customer2.webp"
+                                class="testimonial__client-pic"
+                                alt="A smiling man"
+                            />
+                            <span class="testimonial__client-name">Sam</span>
+                            <span class="testimonial__client-designation">CEO, XYZ Inc.</span>
+                        </figcaption>
+                    </figure>
+
+                    <img
+                        src="img/five-star-rating.png"
+                        class="testimonial__rating"
+                        alt="Five star rating icon"
+                    />
+                </div>
+
+                <div class="testimonial__item">
+                    <figure>
+                        <blockquote class="testimonial__quote">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Recusandae laborum sed quod eos ratione. Eum veritatis sunt,
+                                reiciendis nihil repudiandae asperiores?
+                            </p>
+                        </blockquote>
+
+                        <figcaption>
+                            <img
+                                src="img/customer3.webp"
+                                class="testimonial__client-pic"
+                                alt="A smiling woman"
+                            />
+                            <span class="testimonial__client-name">Mary</span>
+                            <span class="testimonial__client-designation">CEO, ABC Inc.</span>
+                        </figcaption>
+                    </figure>
+
+                    <img
+                        src="img/five-star-rating.png"
+                        class="testimonial__rating"
+                        alt="Five star rating icon"
+                    />
+                </div>
+            </div>
+        </div>
+
+        <div class="cta region contained" id="cta">
+            <span class="offer-title cta__offer-title">
+                Get a free 30 minute <br />
+                initial consultation.
+            </span>
+
+            <p class="cta__offer-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab voluptatibus at id
+                doloribus animi est asperiores quisquam optio, quod dolorum nesciunt consequatur
+                necessitatibus.
+            </p>
+
+            <form method="post" action="" class="form cta__form">
+                <div class="form__item">
+                    <label for="first-name" class="form__label"> First Name: </label>
+                    <input
+                        type="text"
+                        id="first-name"
+                        name="first-name"
+                        value=""
+                        placeholder="Enter First Name"
+                        class="form__input"
+                        required
+                        minlength="3"
+                        maxlength="50"
+                    />
+                </div>
+
+                <div class="form__item">
+                    <label for="last-name" class="form__label"> Last Name: </label>
+                    <input
+                        type="text"
+                        id="last-name"
+                        name="last-name"
+                        value=""
+                        placeholder="Enter Last Name"
+                        class="form__input"
+                        required
+                        minlength="3"
+                        maxlength="50"
+                    />
+                </div>
+
+                <div class="form__item cta__email">
+                    <label for="email" class="form__label"> Email: </label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        value=""
+                        placeholder="Enter Email"
+                        class="form__input"
+                        required
+                    />
+                </div>
+
+                <button name="submit" class="btn btn--submit cta__submit-btn">
+                    Book free initial consultation
+                </button>
+            </form>
+        </div>
+
+        <div class="menu-overlay"></div>
+    </body>
+</html>
