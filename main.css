@@ -401,6 +401,7 @@ h3 {
 }
 
 .accordion__header {
+    font: inherit;
     width: 100%;
     padding: 0;
     border: none;
