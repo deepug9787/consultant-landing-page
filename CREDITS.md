@@ -12,6 +12,10 @@ https://uxwing.com/tick-icon/
 
 https://uxwing.com/black-star-icon/
 
+https://uxwing.com/three-horizontal-lines-icon/
+
+https://uxwing.com/close-line-icon/
+
 # Images:
 
 https://unsplash.com/photos/man-standing-beside-wall-pAtA8xe_iVM
