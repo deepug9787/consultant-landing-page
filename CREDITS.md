@@ -16,6 +16,10 @@ https://uxwing.com/three-horizontal-lines-icon/
 
 https://uxwing.com/close-line-icon/
 
+https://uxwing.com/line-angle-down-icon/
+
+https://uxwing.com/line-angle-up-icon/
+
 # Images:
 
 https://unsplash.com/photos/man-standing-beside-wall-pAtA8xe_iVM

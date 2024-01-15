@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 20 17.873781"
+   version="1.1"
+   sodipodi:docname="checkmark.svg"
+   width="20"
+   height="17.873781"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.14518"
+     inkscape:cx="256.2916"
+     inkscape:cy="228.34839"
+     inkscape:window-width="1366"
+     inkscape:window-height="690"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill-rule:evenodd;}</style>
+  </defs>
+  <path
+     class="cls-1"
+     d="M 0,8.6159695 C 3.9230469,8.5640164 4.7265625,8.4128445 7.4917969,11.799563 9.6125,8.2839383 11.969141,5.2409695 14.519922,2.586282 17.03125,-0.02817114 17.050781,-0.03481177 20,0.00932886 14.982031,5.5858914 10.887109,11.552298 7.6121094,17.873782 5.859375,14.119095 3.4113281,10.958157 0,8.6159695 Z"
+     id="path6"
+     style="fill:#214154;fill-opacity:1;stroke-width:0.0390625" />
+</svg>

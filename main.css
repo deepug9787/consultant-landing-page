@@ -273,7 +273,7 @@ h3 {
 
 .about__list {
     margin-top: 1.5rem;
-    list-style-image: url("img/checkmark.png");
+    list-style-image: url("img/svg/checkmark.svg");
 }
 
 .about__grid-wrapper {
