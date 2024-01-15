@@ -295,7 +295,8 @@ h3 {
 }
 
 .about__profile-pic {
-    max-width: 80%;
+    width: 80%;
+    height: auto;
     justify-self: end;
     border-radius: 20px;
 }
@@ -467,7 +468,8 @@ h3 {
 }
 
 .testimonial__client-pic {
-    max-width: 50%;
+    width: 50%;
+    height: auto;
     border-radius: 50%;
     margin-bottom: 0.5rem;
 }
@@ -528,7 +530,7 @@ h3 {
 
 @media (max-width: 80rem) {
     .about__profile-pic {
-        max-width: 100%;
+        width: 100%;
     }
 }
 
@@ -603,7 +605,7 @@ h3 {
     }
 
     .testimonial__client-pic {
-        max-width: 35%;
+        width: 35%;
     }
 
     .cta {
