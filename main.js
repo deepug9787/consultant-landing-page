@@ -51,9 +51,6 @@ for (const accordionHeaderEl of accordionHeaderElAll) {
     accordionHeaderEl.addEventListener("click", toggleAccordion);
 }
 
-for (const toggleIconEl of toggleIconElAll) {
-    toggleIconEl.setAttribute("src", closeToggleIconSrc);
-}
 /* Accordion end */
 
 /* Contact form */
