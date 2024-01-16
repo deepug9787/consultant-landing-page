@@ -409,9 +409,11 @@ h3 {
     border: none;
     background: none;
     display: flex;
+    gap: 1rem;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
+    text-align: left;
 }
 
 .accordion__title {
